@@ -1,0 +1,84 @@
+header{
+    font-size:45px;
+    background-color:black;
+    color:white;
+    text-align: center;
+    font-family: 'Cormorant Garamond', serif;
+}
+#top{
+    margin-left:80px;
+    background-color:white;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.col-md-2{
+    height:200px;
+    width:450px;
+    background-color:white;
+    border-color:black;
+    border:solid 10px;
+    font-family: 'Cormorant Garamond', serif;
+}
+h1{
+    font-family: 'Cormorant Garamond', serif;
+    text-align: center;
+    
+}
+.citySearch{ 
+    margin-left:500px;
+    font-family: 'Cormorant Garamond', serif;
+    background-color: black;
+    color:white;
+
+}
+
+.fiveday{
+    margin-top: 10px;
+    margin-left:160px;
+
+}
+
+.oneday{
+    margin-left:500px;
+    height:300px;
+    width:500px;
+    background-color:white;
+    border-color:black;
+    border:solid 10px;
+    font-family: 'Cormorant Garamond', serif;
+    text-align:center;
+    
+
+}
+
+.recentSearch{
+    margin-left:150px;
+    height:300px;
+    width:500px;
+    background-color:white;
+    border-color:black;
+    border:solid 10px;
+    font-family: 'Cormorant Garamond', serif;
+    text-align: center;
+    font-size:20px;
+   
+    
+
+}
+
+#city-input{
+    margin-left:400px;
+    height:50px;
+    width:350px;
+    color:black;
+    text-align: center;
+    font-family: 'Cormorant Garamond', serif;
+    font-size:30px;
+    text-align: center;
+
+
+}
+p{
+    text-align: center;
+    font-size:40px;
+}
