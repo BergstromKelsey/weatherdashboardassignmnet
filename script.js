@@ -1,12 +1,12 @@
 $(document).ready(function () {
 
   var cityName = "Chicago"
-  var queryURL = "http://api.openweathermap.org/data/2.5/forecast?q="+cityName+"&units=imperial&appid=dbd621af5e56c8b5d03ec848cc0b32ea";
+  var queryURL = "https://api.openweathermap.org/data/2.5/forecast?q="+cityName+"&units=imperial&appid=dbd621af5e56c8b5d03ec848cc0b32ea";
 
   function cityWeather() {
 
     cityName = $("#city-input").val().trim();
-    queryURL = "http://api.openweathermap.org/data/2.5/forecast?q="+cityName+"&units=imperial&appid=dbd621af5e56c8b5d03ec848cc0b32ea";
+    queryURL = "https://api.openweathermap.org/data/2.5/forecast?q="+cityName+"&units=imperial&appid=dbd621af5e56c8b5d03ec848cc0b32ea";
 
     $.ajax({
       url: queryURL,
@@ -75,7 +75,7 @@ $(document).ready(function () {
       function callUVIndex() {
 
         $.ajax({
-          url: "http://api.openweathermap.org/data/2.5/uvi?lat="+here+"&lon="+there+"&appid=dbd621af5e56c8b5d03ec848cc0b32ea",
+          url: "https://api.openweathermap.org/data/2.5/uvi?lat="+here+"&lon="+there+"&appid=dbd621af5e56c8b5d03ec848cc0b32ea",
           method: "GET"
         }).then(function (response) {
           console.log(response)
