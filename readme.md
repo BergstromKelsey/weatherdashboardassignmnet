@@ -8,3 +8,9 @@ To use this site, just simply enter a city of your choice!
 
 https://github.com/BergstromKelsey/weatherdashboardassignmnet
 https://bergstromkelsey.github.io/weatherdashboardassignmnet/
+
+
+
+![alt text](https://github.com/BergstromKelsey/weatherdashboardassignmnet/blob/main/Assets/Screen%20Shot%202021-01-14%20at%2010.59.58%20PM.png?raw=true)
+
+![alt text](https://github.com/BergstromKelsey/weatherdashboardassignmnet/blob/main/Assets/Screen%20Shot%202021-01-14%20at%2010.59.46%20PM.png?raw=true)
